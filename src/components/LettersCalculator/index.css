@@ -1,0 +1,52 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.calculator-card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.image {
+  width: 50%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  width: 70%;
+}
+.label-text {
+  color: #ffffff;
+  font-size: 15px;
+}
+.input-card {
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+  color: #e4e7eb;
+  font-size: 20px;
+}
+.count-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-text {
+  color: #219a6f;
+  font-size: 25px;
+  font-weight: 500;
+}
